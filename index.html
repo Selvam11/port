@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================ CSS Section  ===================== -->
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+
+    <!-- ================ font Section  ===================== -->
+
+    <script src="https://kit.fontawesome.com/5d055045ab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=WindSong&display=swap"
+        rel="stylesheet">
+
+    <!-- ================ Bootstrap Section  ===================== -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand  back-change" href="#">SELVAM P</a>
+
+                <div class="sun-moon">
+                    <label for="switch" class="togglesss">
+                        <input type="checkbox" class="input" id="switch" onclick="toggleMode()"  />
+                        <div class="icon-s icon--moon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                width="29" height="29">
+                                <path fill-rule="evenodd"
+                                    d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+
+                        <div class="icon-s icon--sun">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                width="32" height="32">
+                                <path
+                                    d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z">
+                                </path>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+
+
+
+                <div class=" d-flex ">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <input id="checkbox" class="vv" type="checkbox">
+                        <label class="toggle" for="checkbox">
+                            <div id="bar1" class="bars"></div>
+                            <div id="bar2" class="bars"></div>
+                            <div id="bar3" class="bars"></div>
+                        </label>
+
+                     
+
+                    </button>
+                 
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active back-change" aria-current="page" href="#">Home</a>
+                        <a class="nav-link back-change" href="#about">About</a>
+                        <a class="nav-link back-change" href="#skill">Skills</a>
+                        <a class="nav-link back-change" href="#project">Projects</a>
+                        <a class="nav-link back-change" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- .................  first-sec  .......................... -->
+
+        <section class="first-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 title">
+                        <h1>
+                            Full Stack MERN<br>
+                            Developer<img src="./IMAGES/HI.png" class="img-fluid" alt="">
+                        </h1>
+                        <p>
+                            Hi, I'm Selvam P.&nbsp;&nbsp; A passionate MERN Stack Developer based in Chennai, Tamil
+                            Nadu. 📍
+                        </p>
+                        <div class="links">
+                            <a target="-blank" href="https://linkedin.com/in/selvam-palani1"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="mailto:selvampalani372@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="typer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- .................  about  .......................... -->
+
+        <section id="about" class="about">
+            <div class="container text-center">
+                <h1>About me</h1>
+                <p>
+                    Hello! I'm Selvam, a 21-year-old web developer specializing in the captivating world of
+                    the MERN stack. Proficient in HTML, CSS, Bootstrap, JavaScript, React js, Mongodb,
+                    Express, Redux, and DBMS, I create visually enticing user
+                    interfaces. <br>
+                    Through the magic of React.js, I bring dynamics to life, and with the
+                    strength of Node.js, I build robust back-end solutions. Let's join forces and transform your
+                    digital aspirations into an irresistibly engaging reality!
+                </p>
+            </div>
+        </section>
+
+        <!-- .................  skill  .......................... -->
+
+        <section id="skill" class="skill">
+            <div class="container text-center">
+                <h1>Tech Stack</h1>
+                <div class="row ">
+                    <div class="col-lg-6">
+                        <div class="book">
+                            <div class="cover">
+                                <img src="./IMAGES/frontend.webp" class="img-fluid  front-back" alt="">
+                                <p class="front fw-bold d-block">Frontend</p>
+
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center flex-wrap main-img">
+                                <div class="f-img ">
+                                    <img src="./IMAGES/html.png" class="img-fluid " alt="html">
+                                    <span class="fw-bold">HTML 5</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/css.png" class="img-fluid " alt="css">
+                                    <span class="fw-bold">CSS 3</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/js.png" class="img-fluid " alt="js">
+                                    <span class="fw-bold">Javascript</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/react.png" class="img-fluid bg-dark rounded " alt="react">
+                                    <span class="fw-bold">React</span>
+                                </div>
+                                <div class="f-img ">
+                                    <img src="./IMAGES/redux.png" class="img-fluid" alt="redux">
+                                    <span class="fw-bold">Redux</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="book">
+                            <div class="cover">
+                                <img src="./IMAGES/backend.png" class="img-fluid front-back " alt="">
+                                <p class="front fw-bold d-block ">Backend</p>
+                            </div>
+
+
+                            <div
+                                class="d-flex align-items-center justify-content-center flex-wrap main-img  main-img-2">
+                                <div class="f-img">
+                                    <img src="./IMAGES/mongoDB.png" class="img-fluid " alt="mongoDB">
+                                    <span class="fw-bold">Mongodb</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/express.png" class="img-fluid rounded-circle " alt="express">
+                                    <span class="fw-bold">Express Js</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/node.png" class="img-fluid " alt="node">
+                                    <span class="fw-bold">Node Js</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/npm.png" class="img-fluid " alt="npm">
+                                    <span class="fw-bold">NPM</span>
+                                </div>
+                                <div class="f-img">
+                                    <img src="./IMAGES/json.png" class="img-fluid " alt="json">
+                                    <span class="fw-bold">JSON</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .,............................................ -->
+                <div class=" tools text-center d-flex align-items-center justify-content-center"
+                    style="margin-top: 1.5rem">
+                    <div class="books">
+                        <div class="covers">
+                            <img src="./IMAGES/tool.jpg" class="img-fluid  front-back-tool" alt="">
+                            <p class="front fw-bold d-block">Tools</p>
+
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center flex-wrap main-img">
+                            <div class="f-img ">
+                                <img src="./IMAGES/git.png" class="img-fluid " alt="git">
+                                <span class="fw-bold">Git</span>
+                            </div>
+                            <div class="f-img">
+                                <img src="./IMAGES/github.png" class="img-fluid " alt="github">
+                                <span class="fw-bold">GitHub</span>
+                            </div>
+                            <div class="f-img">
+                                <img src="./IMAGES/vscode.png" class="img-fluid " alt="vscode">
+                                <span class="fw-bold">VS code</span>
+                            </div>
+                            <div class="f-img">
+                                <img src="./IMAGES/excel.jpg" class="img-fluid bg-dark rounded " alt="excel">
+                                <span class="fw-bold">Excel</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ...................  experience  ........................ -->
+
+        <section id="experience" class="experience">
+            <div class="container ">
+                <h1 class="text-center">Experience</h1>
+
+                <div class="row d-flex  ">
+                    <div class="col-lg-2 ">
+                        <img src="./IMAGES/arkashya.webp">
+                    </div>
+                    <div class="col-lg-9 exp-info ">
+                        <div>
+                            <h2>Full Stack Trainee</h2>
+                            <p>Arkashya Tech Solution Pvt Ltd . Internship</p>
+                            <span>Nov 2023 - Dec 2023 <br>
+                                Chennai, TamilNadu . Onsite</span>
+                        </div>
+                        <ul>
+                            <li>In the initial phase of my internship, I contributed to “ Project-x ” which forms the
+                                base of the ongoing “ MyHotelAI ”
+                                project. This opportunity enriched my understanding of MERN stack development, providing
+                                fundamental insights
+                                crucial for MyHotelAI.
+                            </li>
+                            <li>Proactively shifted from internship duties to actively supporting the MyHotelAI project.
+                                Mastered assigned tasks,
+                                acquiring comprehensive insights into project intricacies and team dynamics, fostering a
+                                robust understanding of
+                                real-world project execution.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ...................  Projects  ........................ -->
+
+        <section id="project" class="project">
+
+            <div class="container ">
+                <h1 class="text-center">Projects</h1>
+                <div class="row">
+
+
+                    <div class="col-lg-5  d-flex align-items-center justify-content-center">
+                        <a href="https://selvam11.github.io/Amazon0011/" target="_blank">
+                            <div class="card">
+                                <div class="main-content">
+                                    <div class="header">
+                                        <img src="./IMAGES/Amazon-project.png" class="img-fluid pro-img"
+                                            alt="Amazon-project">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 pro-info ">
+                        <div>
+                            <h2>E-Commerce Amazon-Clone</h2>
+                            <p>This e-commerce site offers a comprehensive experience for regular users and
+                                administrators. Admin functionalities encompassed product and category management,
+                                real-time delivery updates and statistical insights into website performance.</p>
+                        </div>
+                        <div class="pro-but">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                        <div class="pro-link pro-but">
+                            <a href="https://selvam11.github.io/Amazon0011/" target="_blank">
+                                <button>Live<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ..................................... -->
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-5 d-flex align-items-center justify-content-center  ">
+                        <a href="https://selvam01.github.io/Lawn-Care01/" target="_blank">
+                            <div class="card">
+                                <div class="main-content">
+                                    <div class="header">
+                                        <img src="./IMAGES/Lawn-care.png" class="img-fluid pro-img" alt="Lawn-care">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 pro-info ">
+                        <div>
+                            <h2>Lawn-Care</h2>
+                            <p>This is my first project</p>
+                        </div>
+                        <div class="pro-but">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                        <div class="pro-link pro-but">
+                            <a href="https://selvam01.github.io/Lawn-Care01/" target="_blank">
+                                <button>Live<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ..................................... -->
+
+            <div class="container mt-5 ">
+                <div class="row">
+                    <div class="col-lg-5 d-flex align-items-center justify-content-center ">
+                        <a href="https://selvam11.github.io/project-roof/" target="_blank">
+                            <div class="card">
+                                <div class="main-content">
+                                    <div class="header">
+                                        <img src="./IMAGES/Rafter.png" class="img-fluid pro-img" alt="Rafter">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 pro-info ">
+                        <div>
+                            <h2>E-Commerce Amazon-Clone</h2>
+                            <p>Find love with our cat dating site. Showcasing my HTML, CSS, Bootstrap skills, connecting
+                                feline enthusiasts.</p>
+                        </div>
+                        <div class="pro-but">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                        <div class="pro-link pro-but">
+                            <a href="https://selvam11.github.io/project-roof/" target="_blank">
+                                <button>Live<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ...................  Contact  ........................ -->
+
+        <section id="contact" class="contact">
+            <div class="container  ">
+                <h1 class="text-center">Contact</h1>
+                <h2 class="text-center">Don't be shy! Hit me up! 👇</h2>
+                <div class="container-fluid  ">
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="box box-1  d-flex">
+                                <a href="mailto:selvampalani372@gmail.com" target="_blank" class="text-decoration-none">
+                                    <div class="d-flex">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="box-info">
+                                            <p>Mail </p>
+                                            <span>selvampalani372@gmail.com</span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3  col-md-6  col-sm-6">
+                            <div class="box box-2 d-flex">
+                                <a href="https://linkedin.com/in/selvam-palani1" target="_blank"
+                                    class="text-decoration-none">
+                                    <div class="d-flex">
+                                        <div class="icon">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                        <div class="box-info">
+                                            <p> LinkedIn</p>
+                                            <span>Selvam P </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 col-sm-6">
+                            <div class="box box-3 d-flex">
+                                <a href="tel:+91 9994728324" target="_blank" class="text-decoration-none">
+                                    <div class="d-flex">
+                                        <div class="icon">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </div>
+                                        <div class="box-info">
+                                            <p>Whatsapp </p>
+                                            <span>+91 99947 28324 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+    <!-- ...................  footer  ........................ -->
+
+    <footer>
+        <div class="copyright">
+            <h2>Copyright &copy; 2024. All rights are reserved by Selvam</h2>
+            <ul class="list-unstyled">
+                <li class="list-inline-item">
+                    <a href="mailto:selvampalani372@gmail.com" target="_blank" class="text-decoration-none">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://linkedin.com/in/selvam-palani1" target="_blank" class="text-decoration-none">
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="tel:+91 9994728324" target="_blank" class="text-decoration-none">
+                        <div class="icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- ================ Bootstrap Section  ===================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        function toggleMode(){
+            document.body.classList.toggle('dark-mode')
+            document.querySelector('header').classList.toggle('header-bg-toggle');
+            document.querySelector('.back-change').classList.toggle('back-change-color');
+            // document.querySelector('back-change').classList.toggle('back-change-color');
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
